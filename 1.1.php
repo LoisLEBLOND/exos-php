@@ -19,4 +19,4 @@ function verifAge ($age){
     }
 }
 
-verifAge(18);
+verifAge(12);
