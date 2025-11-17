@@ -11,7 +11,6 @@ function pgcd_1($a, $b) {
 		}
 	}
 	return $a;
-    echo $a;
 }
 
 function pgcd_2($a, $b) {
@@ -23,7 +22,6 @@ function pgcd_2($a, $b) {
 		$b = $r;
 	}
 	return $a;
-    echo $a;
 }
 
 function pgcd_3($a, $b) {
@@ -34,11 +32,4 @@ function pgcd_3($a, $b) {
 	} else {
 		return pgcd_3($b, $a % $b);
 	}
-    echo $a;
 }
-
-pgcd_1(5, 8);
-
-pgcd_2(5, 8);
-
-pgcd_3(5, 8);
