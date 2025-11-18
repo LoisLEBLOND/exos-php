@@ -1,6 +1,5 @@
 <?php
 
-// Fonction qui reproduit str_contains sans utiliser de fonctions PHP (sauf strlen, count, isset)
 function my_str_contains($haystack, $needle) {
 	$haystack_len = strlen($haystack);
 	$needle_len = strlen($needle);
