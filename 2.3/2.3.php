@@ -1,5 +1,6 @@
 
 <?php
+
 function my_str_contains($haystack, $needle) {
 	$haystack_len = strlen($haystack);
 	$needle_len = strlen($needle);
