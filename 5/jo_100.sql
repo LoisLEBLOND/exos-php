@@ -1,0 +1,13 @@
+
+CREATE TABLE `100` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nom` varchar(45) DEFAULT NULL,
+  `pays` varchar(45) DEFAULT NULL,
+  `temps` float DEFAULT NULL,
+  `course` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4;
+
+
+INSERT INTO `100` VALUES (1,'Noah Lyles','USA',9.83,'Championnats du monde d\'athlétisme 2023'),(2,'Letsile Tebogo','BOT',9.88,'Championnats du monde d\'athlétisme 2023'),(3,'Zharnel Hughes','GBR',9.88,'Championnats du monde d\'athlétisme 2023'),(4,'Oblique Seville','JAM',9.88,'Championnats du monde d\'athlétisme 2023'),(5,'Christian Coleman','',9.99,'Championnats du monde d\'athlétisme 2023'),(6,'Abdul Hakim Sani Brown','JPN',10.04,'Championnats du monde d\'athlétisme 2023'),(7,'Ferdinand Omanyala','KEN',10.07,'Championnats du monde d\'athlétisme 2023'),(8,'Ryiem Forde','JAM',10.08,'Championnats du monde d\'athlétisme 2023'),(9,'Fred Kerley','USA',9.86,'Championnats du monde Eugene 2022'),(10,'Marvin Bracy','USA',9.88,'Championnats du monde Eugene 2022'),(11,'Trayvon Bromell','USA',9.88,'Championnats du monde Eugene 2022'),(12,'Oblique Seville','JAM',9.97,'Championnats du monde Eugene 2022'),(13,'Akani Simbine','AFS',10.01,'Championnats du monde Eugene 2022'),(14,'Chris Coleman','USA',10.01,'Championnats du monde Eugene 2022'),(15,'Abdul Hakim Sani Brown','JAP',10.06,'Championnats du monde Eugene 2022'),(16,'Aaron Brown','CAN',10.07,'Championnats du monde Eugene 2022'),(17,'Marcell Jacobs','ITA',9.8,'JO 2020'),(18,'Fred Kerley','USA',9.84,'JO 2020'),(19,'Andre De Grasse','CAN',9.89,'JO 2020'),(20,'Akani Simbine','AFS',9.93,'JO 2020'),(21,'Ronnie Baker','USA',9.95,'JO 2020'),(22,'Su Bingtian','CHI',9.98,'JO 2020'),(23,'Usain Bolt','JAM',9.81,'JO 2016'),(24,'Justin Gatlin','USA',9.89,'JO 2016'),(25,'Andre De Grasse','CAN',9.91,'JO 2016'),(26,'Yohan Blake','JAM',9.93,'JO 2016'),(27,'Akani Simbine','AFS',9.94,'JO 2016'),(28,'Ben Youssef Meïté','CIV',9.96,'JO 2016'),(29,'Jimmy Vicaut','FRA',10.04,'JO 2016'),(30,'Trayvon Bromell','USA',10.06,'JO 2016'),(31,'Usain Bolt','JAM',9.63,'JO 2012'),(32,'Yohan Blake','JAM',9.75,'JO 2012'),(33,'Justin Gatlin','USA',9.79,'JO 2012'),(34,'Ryan Bailey','USA',9.88,'JO 2012'),(35,'Churandy Martina','NEL',9.94,'JO 2012'),(36,'Richard Thompson','TET',9.98,'JO 2012'),(37,'Asafa Powell','JAM',11.99,'JO 2012'),(38,'Tyson Gay','USA',9.8,'JO 2012'),(39,'Usain Bolt','JAM',9.69,'JO 2008'),(40,'Richard Thompson','TET',9.89,'JO 2008'),(41,'Walter Dix','USA',9.91,'JO 2008'),(42,'Churandy Martina','NEL',9.93,'JO 2008'),(43,'Asafa Powell','JAM',9.95,'JO 2008'),(44,'Michael Frater','JAM',9.97,'JO 2008'),(45,'Marc Burns','TET',10.01,'JO 2008'),(46,'Darvis Patton','USA',10.03,'JO 2008');
+
