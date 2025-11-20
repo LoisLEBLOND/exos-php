@@ -82,7 +82,6 @@ if (isset($_POST['register'])) {
     }
 }
 
-// Ajout d'un message pour utilisateur connecté
 if (isset($_POST['add_message']) && isset($_SESSION['username'])) {
     $content = isset($_POST['content']) ? trim($_POST['content']) : '';
     if ($content === '') {
